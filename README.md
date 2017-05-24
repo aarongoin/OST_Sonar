@@ -9,7 +9,7 @@ The Sonar Deck is comprised of 50 unique cards that the Submarine player uses to
 The game board consists of 4 colored quadrants, each with 90 positions that the submarine can occupy. Each position is divided into 1-5 different depths.
 
 
-Sonar Deck contains 50 cards:
+## Sonar Deck contains 50 cards:
 
 10 x Red Quadrant cards (numbers 0 through 9)
 
@@ -26,7 +26,7 @@ Sonar Deck contains 50 cards:
 
 With the Sonar mechanic: each unique position can be encoded with 3 cards from the Sonar Deck.
 
-Sonar Mechanic works as follows:
+## Sonar Mechanic works as follows:
 
 The submarine player removes the 4 cards that detail his position (2 cards), depth, and current speed and places them in a pile.
 
