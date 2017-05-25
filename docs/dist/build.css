@@ -5,6 +5,11 @@ body {
 	padding: 0;
 	background-color: #111;
 	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 h2 {
