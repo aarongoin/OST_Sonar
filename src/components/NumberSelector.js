@@ -9,7 +9,7 @@ module.exports = function(props) {
 
 	while (i <= props.to) buttons.push(
 		<button
-			style={Object.assign({}, Style.NumberButton, { color: (props.selected.indexOf(i) === -1) ? "rgba(1, 1, 1, 0.4)" : "#ffffff" })}
+			style={Object.assign({}, Style.NumberButton, { color: (props.selected.indexOf(i) === -1) ? "rgba(255, 255, 255, 0.3)" : "#ffffff" })}
 			data-id={i}
 			onClick={callback}
 		>{("" + i++)}</button>

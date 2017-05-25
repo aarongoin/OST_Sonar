@@ -3,10 +3,11 @@ module.exports = {
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "flex-start",
-		alignItems: "center"
+		alignItems: "center",
+		maxWidth: "25rem"
 	},
 	SegueButton: {
-		width: "95vw",
+		width: "24rem",
 		height: "4rem",
 		fontWeight: "200",
 		fontSize: "2rem",
@@ -16,7 +17,7 @@ module.exports = {
 		backgroundColor: "rgba(255,255,255,0.5)"
 	},
 	DisabledButton: {
-		width: "95vw",
+		width: "24rem",
 		height: "4rem",
 		fontWeight: "200",
 		fontSize: "2rem",
@@ -26,7 +27,9 @@ module.exports = {
 		backgroundColor: "rgba(255,255,255,0.25)"
 	},
 	NumberBox: {
-		width: "66%",
+		marginLeft: "auto",
+		marginRight: "auto",
+		width: "80%",
 		display: "flex",
 		justifyContent: "flex-start",
 		flexWrap: "wrap",
@@ -35,7 +38,7 @@ module.exports = {
 	NumberButton: {
 		border: "none",
 		outline: "none",
-		fontSize: "3rem",
+		fontSize: "2rem",
 		fontWeight: "200",
 		margin: "0.75rem",
 		backgroundColor: "rgba(0,0,0,0)"
@@ -43,7 +46,10 @@ module.exports = {
 	HexButton: {
 		display: "inline",
 		margin: "0.15rem",
-		fontFamily: "Open Sans"
+		fontFamily: "Open Sans",
+		fontSize: "1rem",
+		width: "5rem",
+		height: "5rem"
 	},
 	Card: {
 		marginBottom: "1rem",

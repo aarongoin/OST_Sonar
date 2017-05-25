@@ -35,11 +35,13 @@ class App extends React.Component {
 			case 4: return <Pass to="Sub" segue={this.segue}/>;
 		}
 	}
+
 	segue() {
 		this.setState({
 			view: (this.state.view === 4) ? 0 : this.state.view + 1
 		});
 	}
+
 	segueWithPayload(payload, add2) {
 		this.setState({
 			view: (this.state.view === 4) ? 0 : this.state.view + ((add2) ? 2 : 1),

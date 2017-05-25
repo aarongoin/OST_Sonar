@@ -11,7 +11,7 @@ const
 		text: {
 			webkitFontSmoothing: "antialiased",
 			display: "inline",
-			fontSize: "3rem",
+			fontSize: "2rem",
 			fontWeight: "200",
 			margin: "0.75rem",
 			backgroundColor: "rgba(0,0,0,0)",
