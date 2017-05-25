@@ -28,23 +28,23 @@ class App extends React.Component {
 
 	render(props, state) {
 		switch (state.view) {
-			case 0: return <SubView  segue={this.segueWithPayload}/>;
-			case 1: return <Pass to="Ship" segue={this.segue}/>;
+			case 0: return <SubView segue={this.segueWithPayload}/>;
+			case 1: return <Pass segue={this.segue}/>;
 			case 2: return <ShipView payload={state.payload} segue={this.segueWithPayload}/>;
 			case 3: return <SonarView payload={state.payload} segue={this.segueWithPayload}/>;
-			case 4: return <Pass to="Sub" segue={this.segue}/>;
+			//case 4: return <Pass to="Sub" segue={this.segue}/>;
 		}
 	}
 
 	segue() {
 		this.setState({
-			view: (this.state.view === 4) ? 0 : this.state.view + 1
+			view: (this.state.view === 3) ? 0 : this.state.view + 1
 		});
 	}
 
-	segueWithPayload(payload, add2) {
+	segueWithPayload(payload) {
 		this.setState({
-			view: (this.state.view === 4) ? 0 : this.state.view + ((add2) ? 2 : 1),
+			view: (this.state.view === 3 || payload === undefined) ? 0 : this.state.view + 1,
 			payload: payload
 		});
 	}

@@ -52,6 +52,7 @@ module.exports = {
 	HexButton: {
 		display: "inline",
 		marginTop: "1rem",
+		marginBottom: "1rem",
 		marginLeft: "0.15rem",
 		marginRight: "0.15rem",
 		fontFamily: "Open Sans",
@@ -60,7 +61,7 @@ module.exports = {
 		height: "4rem"
 	},
 	Card: {
-		marginBottom: "1rem",
+		marginBottom: "0.5rem",
 		width: "100%",
 		borderRadius: "1rem",
 		display: "flex",
@@ -70,7 +71,8 @@ module.exports = {
 		maxWidth: "20rem"
 	},
 	img: {
-		width: "100%",
-		height: "auto"
+		width: "20rem",
+		height: "auto",
+		marginBottom: "2rem"
 	}
 };

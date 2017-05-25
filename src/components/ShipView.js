@@ -38,7 +38,7 @@ class ShipView extends React.Component {
 
 	viewSonar() {
 		this.props.segue(
-			this.props.payload(this.state.detection, (this.state.detection === 0)) // ship sonar function
+			((this.state.detection === 0) ? undefined : this.props.payload(this.state.detection)) // ship sonar function
 		);
 	}
 }

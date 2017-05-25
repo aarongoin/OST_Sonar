@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	padding-top: 1rem;
 	background-color: #111;
 	font-family: "Open Sans", sans-serif;
 	font-size: 12px;

@@ -7,7 +7,7 @@ module.exports = function(props) {
 	return (
 		<div style={Style.MainLayout}>
 			<img src="./dist/img/BACK.png" style={Style.img}/>
-			<h2>{"Pass this to the " + props.to + " player."}</h2>
+			<h2>{"Pass this to your opponent."}</h2>
 		</div>
 	);
 }
