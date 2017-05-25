@@ -36,7 +36,6 @@ class SubView extends React.Component {
 		return (
 			<section style={Style.MainLayout}>
 				<Card color={state.quadrantColor}>
-					<h2>Position</h2>
 					<QuadrantSelector selected={state.quadrant} onSelect={this.selectQuadrant} />
 					<NumberSelector fg={state.quadrantColor} selected={[this.state.posA, this.state.posB]} from={0} to={9} onClick={this.selectPosition} />
 				</Card>

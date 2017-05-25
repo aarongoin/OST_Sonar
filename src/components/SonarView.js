@@ -3,9 +3,11 @@ const
 
 	Bind = require("../bind.js"),
 
+	HexButton = require("./HexButton.js"),
 	NumberList = require("./NumberList.js"),
 	Card = require("./Card.js"),
 	Sonar = require("../sonar.js"),
+
 	Style = require("../style.js");
 
 function parseDraw(cards) {
@@ -37,28 +39,28 @@ module.exports = function(props, state) {
 
 	if (draw.R.length) cards.push(
 		<Card color={Sonar.ColorForQuadrant("R")}>
-			<h2>Red</h2>
+			<HexButton text="R" selected="true" fg={Sonar.ColorForQuadrant("R")} bg="#ffffff"/>
 			<NumberList list={draw.R} />
 		</Card>
 	);
 
 	if (draw.P.length) cards.push(
 		<Card color={Sonar.ColorForQuadrant("P")}>
-			<h2>Purple</h2>
+			<HexButton text="P" selected="true" fg={Sonar.ColorForQuadrant("P")} bg="#ffffff"/>
 			<NumberList list={draw.P} />
 		</Card>
 	);
 
 	if (draw.O.length) cards.push(
 		<Card color={Sonar.ColorForQuadrant("O")}>
-			<h2>Orange</h2>
+			<HexButton text="O" selected="true" fg={Sonar.ColorForQuadrant("O")} bg="#ffffff"/>
 			<NumberList list={draw.O} />
 		</Card>
 	);
 
 	if (draw.G.length) cards.push(
 		<Card color={Sonar.ColorForQuadrant("G")}>
-			<h2>Green</h2>
+			<HexButton text="G" selected="true" fg={Sonar.ColorForQuadrant("G")} bg="#ffffff"/>
 			<NumberList list={draw.G} />
 		</Card>
 	);

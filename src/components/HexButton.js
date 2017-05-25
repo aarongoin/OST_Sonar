@@ -30,7 +30,7 @@ class HexButton extends React.Component {
 							fontFamily: "Open Sans",
 							fontSize: "4.8%",
 							fill: "#111111",
-							fillOpacity: "1"
+							fillOpacity: "0.5"
 						})}
 					>{props.text}</text>
 				</g>

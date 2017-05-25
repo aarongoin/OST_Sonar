@@ -1,5 +1,6 @@
 const
 	React = require("preact"),
+
 	Style = {
 		div: {
 			width: "66%",

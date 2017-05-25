@@ -3,11 +3,10 @@ module.exports = {
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "flex-start",
-		alignItems: "center",
-		maxWidth: "25rem"
+		alignItems: "center"
 	},
 	SegueButton: {
-		width: "24rem",
+		width: "20rem",
 		height: "4rem",
 		fontWeight: "200",
 		fontSize: "2rem",
@@ -17,7 +16,7 @@ module.exports = {
 		backgroundColor: "rgba(255,255,255,0.5)"
 	},
 	DisabledButton: {
-		width: "24rem",
+		width: "20rem",
 		height: "4rem",
 		fontWeight: "200",
 		fontSize: "2rem",
@@ -32,8 +31,15 @@ module.exports = {
 		width: "80%",
 		display: "flex",
 		justifyContent: "flex-start",
+		alignItems: "center",
 		flexWrap: "wrap",
 		marginBottom: "2rem"
+	},
+	FlexRow: {
+		width: "100%",
+		display: "flex",
+		justifyContent: "center",
+		alignItems: "center"
 	},
 	NumberButton: {
 		border: "none",
@@ -45,11 +51,13 @@ module.exports = {
 	},
 	HexButton: {
 		display: "inline",
-		margin: "0.15rem",
+		marginTop: "1rem",
+		marginLeft: "0.15rem",
+		marginRight: "0.15rem",
 		fontFamily: "Open Sans",
 		fontSize: "1rem",
-		width: "5rem",
-		height: "5rem"
+		width: "4rem",
+		height: "4rem"
 	},
 	Card: {
 		marginBottom: "1rem",
@@ -58,7 +66,8 @@ module.exports = {
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
-		justifyContent: "center"
+		justifyContent: "center",
+		maxWidth: "20rem"
 	},
 	img: {
 		width: "100%",
